@@ -1,0 +1,293 @@
+*,body{
+	margin: 0;
+	padding: 0;
+
+}
+
+/*****HEADER*****/
+header{
+	width: 100%;
+	height: 350px;
+	background: blueviolet;
+}
+header .content{
+	width: 1200px;
+	margin: auto;
+	box-sizing: border-box;
+}
+header .content .heading{
+	width: 47.5%;
+	float: left;
+	margin-top: 80px;
+	border-right: 1px solid #eee;
+}
+header .content .heading h2{
+	width: 70%;
+	margin: auto;
+	color: #fff;
+	line-height:2;
+	font-size:28px;
+	letter-spacing: 1.5px;
+}
+header .content .heading h2 span a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header .content .heading h2 span a:hover{
+	color: #00bc8a;
+}
+header .content .lorem{
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 100px;
+	float: right;
+	font-size:19px;
+	letter-spacing: 1px;
+	color: #ddd;
+	line-height: 1.6;
+	font-family: sans-serif;
+}
+header .content .lorem button{
+   border: none;
+   padding: 8px;
+   width: 160px;
+   border-radius: 20px;
+   margin-top: 15px;
+   background: #00bc8a;
+   cursor: pointer;
+   outline: none;
+   
+}
+header .content .lorem button a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 550;
+	letter-spacing: 0.6px;
+}
+/*****SECTON******/
+section{
+	width: 100%;height: 350px;
+	border-bottom: 1px solid #ddd;
+}
+section .container{
+	box-sizing: border-box;
+	padding-top:55px;
+	margin-left: 70px;
+}
+section .container .Pleft{
+	width: 45%;
+	float: left;
+	border-right: 1px solid #ddd;
+}
+section .container .Pright{
+	width: 45%;
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+    visibility: hidden;
+}
+section .container .Pleft h2{
+	text-align: center;
+	text-decoration: underline;
+	color: #777;
+	font-size:30px;
+	margin-bottom: 30px;
+	font-family: tahoma;
+	letter-spacing: 1px; 
+}
+section .container .Pleft p{
+	width: 80%;
+	margin: auto;
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	line-height:1.7;
+	color: #888;
+	text-align: justify;
+}
+section .container .Pleft a button{
+	width: 150px;
+	background: #fff;
+	border: 1px solid #1F201F;
+	border-radius: 20px;
+	padding:9px;
+	margin-top: 20px;
+	margin-left: 40px;
+	outline: none;
+	cursor: pointer;
+}
+section .container .Pleft button:hover {
+   text-decoration: underline;
+}
+section .container .Pleft a button {
+	color: #1F201F;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 0.8px;
+}
+section .container .Pright p{
+	font-size: 18px;
+	line-height: 2.2;
+	color: #1D1D1D;
+	padding-left: 15px;
+	font-style: bold;
+}
+section .container .Pright p i{
+	margin-right: 18px;
+	font-size: 20px;
+	padding-top: 10px;
+	color: #38E31D;
+}
+/******ASIDE*****/
+.clear{clear: both;}
+aside{
+	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 45px;
+    background: #f2f2f2;
+	overflow: hidden;
+}
+aside .part{
+    width: 100%;
+	height: 450px;
+	display: block;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+aside .part img{
+	width: 30%;
+	height: 450px;
+	float: left;
+	margin-left: 60px;
+}
+aside .part .para{
+	padding-left: 150px;
+	padding-top: 80px;
+	width: 40%;
+	float: left;
+}
+aside .part .para h3{
+	font-size: 30px;
+	color: #4E4D4D;
+	letter-spacing: 2px;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+}
+aside .part .para p{
+	margin-top: 25px;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #1D1D1D;
+	line-height: 1.5;
+	width: 80%;
+}
+aside .part .para button{
+	width: 150px;
+	font-size:18px;
+	text-transform: uppercase;
+	color: #614F4F;
+	border: 1px solid #614F4F;
+	background: none;
+	padding: 6px;
+	border-radius: 20px;
+	margin-top: 55px;
+	cursor: pointer;
+}
+aside .part .para button:hover{
+    text-decoration: underline;
+    color: #1B1A1A;
+	border: 1px solid #1B1A1A;
+}
+/*****CONTACT*****/
+.contact{
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.contact .container .form{
+	width:40%;
+	float: left;
+	border-radius: 2px solid #ddd;
+	padding-left:50px;
+	padding-top: 25px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-right: 2px solid #eee;
+}
+.contact .container .form h2{
+	font-family: tahoma;
+	font-size: 35px;
+}
+.contact .container .form p{
+	line-height: 2;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #888;
+	margin: 15px auto; 
+}
+.contact .container .form input[type="text"],input[type="email"]{
+	box-sizing: border-box;
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size:14px;
+}
+.contact .container .form textarea{
+	box-sizing: border-box;
+	width: 405px;
+	outline: none;
+	padding:20px;
+	font-size: 13px;
+}
+.contact .container .form input[type="text"]:focus,input[type="email"]:focus,textarea:focus{
+    border-left: 3px solid #777;
+}
+.contact .container .form input[type="submit"]{
+	width: 130px;
+	padding: 10px;
+	border: 1px solid #888;
+	color: #888;
+	background: none;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.contact .container .links{
+	float: left;
+	padding-top: 55px;
+	padding-left: 100px;
+}
+.contact .container .links p{
+	line-height: 3;
+	font-size: 20px;
+}
+.contact .container .links p i{
+	padding-right: 25px;
+	color: #00bc8a;
+}
+/****FOOTER****/
+footer{
+	width: 100%;
+	height: 80px;
+	border-top: 2px solid #eee;
+}
+footer p{
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 30px;
+	font-family: serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #888;
+}
